@@ -1,0 +1,5 @@
+expression = input("Expression:")
+x, y, z = expression.split(" ")
+x , z = int(x) , int(z)
+ans = eval(f"{x}  {y}  {z}") 
+print(ans)
